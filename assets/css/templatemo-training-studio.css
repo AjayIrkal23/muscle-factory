@@ -1278,7 +1278,7 @@ preloader
 
 .preloader-inner {
     position: relative;
-    top: 70%;
+    top: 80%;
     width: 142px;
     height: 40px;
 }
@@ -1354,5 +1354,35 @@ responsive
 @media (max-width: 450px) {
     .feature-item .right-content a.text-button {
         margin-left: 130px;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        font-size: 1.7rem !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        font-size: 1.6rem !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media (max-width: 325px) {
+    .logo {
+        font-size: 1.25rem !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .logo {
+        font-size: 1rem !important;
     }
 }
